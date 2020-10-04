@@ -1,11 +1,6 @@
-h1{
-	color: red;
-}
 body{
 	margin: 0;
 }
-
-
 .header{
 	background-color: #F0F0F0;
 	height: 93px;
@@ -18,22 +13,21 @@ body{
 	margin-right: 181px;
 }
 .header-right input[type=text] {
-  font-family: 'Arimo', sans-serif;
-  font-size: 14pt;
-  font-weight: bold;
-
-  float: left;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin-top: 0px;
-  margin-right: 10px;
-  border-bottom: 2px solid #566141;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  box-sizing: border-box;
-  font-size: 17px;
-  background-color: rgba(0,0,0,0);
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 14pt;
+  	font-weight: 300;
+  	float: left;
+  	padding-top: 10px;
+  	padding-bottom: 5px;
+  	margin-top: 0px;
+  	margin-right: 10px;
+  	border-bottom: 2px solid #566141;
+  	border-top: none;
+  	border-right: none;
+  	border-left: none;
+  	box-sizing: border-box;
+  	font-size: 17px;
+  	background-color: rgba(0,0,0,0);
  }
 .navBar{
 	background-color: #F0F0F0;
@@ -42,9 +36,9 @@ body{
 }
 .navButton a{
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13pt;
-	font-weight: bold;
+	font-weight: 500;
 	color: #566141;
 	letter-spacing: 3px;
 	float: left;
@@ -62,12 +56,83 @@ body{
   	padding: 0;
   	overflow: hidden;
 }
+.content{
+	width: 1076px;
+	position: relative;
+	margin: 27px auto auto auto;
+}
+.feature{
+	width: 500px;
+	height: 342px;
+}
+.featureText{
+	width: 45%;
+
+	float: left;
+	margin-top: 0px;
+	margin-left: 32px;
+	margin-bottom: 0;
+}
+.featureText h2{
+	margin-top: 0px;
+	color: #566141;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18pt;
+	font-weight: 500;
+}
+.featureText p{
+	width: 80%;
+	color: #696969;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+	font-weight: 100;
+	margin-bottom: 4px;
+}
+#gps{
+	display: block;
+	width: 40%;
+	float: right;
+	margin: 0 20px 0 0;
+	
+}
+.colorOptions{
+	float: left;
+	margin: 0;
+}
+.colorOptions p{
+	text-align: left;
+	margin-left: 0;
+	margin-bottom: 4px;
+	font-size: 10pt;
+
+}
+.colorOptions img{
+	float: left;
+}
+.callToAction{
+	
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13pt;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 3px;
+	text-align: center;
+	background-color: #566141;
+	border-radius: 8px;
+}
+.callToAction:hover{
+	background-color: #E3C59F;
+}
 #cartButton{
 	float: right;
 	border-radius: 8px;
 	height: 40px;
-
-}#cartButton:hover{
+}
+#cartButton:hover{
 	background-color: #E3C59F; 
 
 }
@@ -78,4 +143,50 @@ body{
 }
 #searchIcon{
 	padding: 5px 10px 5px 0px;
+}
+#hero{
+	background: url("images/pexels-spencer-gurley-1448053.jpg");
+	background-position: center;
+	background-size: 1113px 1666px;
+	width: 1076px;
+	height: 460px;
+	overflow: hidden;
+	margin: 24px auto;
+	position: relative;
+}
+#hero h1{
+	margin:21px 0px 0px 0px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32pt;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0,0,0, .42);
+}
+#hero h2{
+	margin:0;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0,0,0, .42);
+}
+#shopAllProducts{
+	position: absolute;
+	margin-left:50%;
+	margin-top:27%; 
+	transform: translate(-50%);
+	padding: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13pt;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-align: center;
+	background-color: rgba(185, 181, 170, .59);
+	border-radius: 8px;
+}
+#shopAllProducts:hover{
+	background-color: #E3C59F;
 }
