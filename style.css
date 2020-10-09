@@ -62,6 +62,7 @@ body{
 	margin: 27px auto auto auto;
 }
 .feature{
+	float: left;
 	width: 500px;
 	height: 342px;
 }
@@ -104,7 +105,6 @@ body{
 	margin-left: 0;
 	margin-bottom: 4px;
 	font-size: 10pt;
-
 }
 .colorOptions img{
 	float: left;
@@ -126,6 +126,12 @@ body{
 }
 .callToAction:hover{
 	background-color: #E3C59F;
+}
+.social{
+	float: right;
+	background-color: #F0F0F0;
+	width: 500px;
+	height: 342px;
 }
 #cartButton{
 	float: right;
