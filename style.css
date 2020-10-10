@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 }
-
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -291,4 +290,134 @@ body{
 #shopAllProducts:hover{
 	background-color: #E3C59F;
 	transition: all .25s;
+}
+.productsListTitle{
+	margin:30px auto 8px 22%;
+	padding-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	color: #566141;
+	font-weight: 500;
+}
+.bodyContent{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+}
+.bodyContent a{
+	text-decoration: none;
+}
+.filter{
+	flex-basis: 15%;
+	margin-top: 12px;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.filter h3, a{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.filterTitle{
+	color: #696969;
+	font-size: 14pt;
+	font-weight: 500;
+	padding-bottom: 5px;
+}
+.filterCatagory{
+	font-size: 12pt;
+	font-weight: 500;
+	color: #566141; 
+	margin-left: 10px;
+}
+.filterOption{
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	margin-left: 10px;
+	color: #566141;
+	font-size: 10pt;
+	font-weight: 300;
+}
+.filterSelect{
+	height: 8px;
+	width: 8px;
+	border: 1px solid #566141;
+	margin-right: 10px;
+}
+.filterOption:hover .filterSelect{
+	background-color: #566141;
+}
+#strawberry{
+	border-color: #FF5071;
+}
+#strawberry:hover .filterSelect{
+	background-color: #FF5071;
+}
+#blackberry{
+	border-color: #300D46;
+}
+#blackberry:hover .filterSelect{
+	background-color: #300D46;
+}
+#crazyberry{
+	border-color: #50E9CD;
+}
+#crazyberry:hover .filterSelect{
+	background-color: #50E9CD;
+}
+#fireOrange{
+	border-color: #FF4C00;
+}
+#fireOrange:hover .filterSelect{
+	background-color: #FF4C00;
+}
+
+.productsList{
+	display: flex;
+	flex-basis: 85%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	color: #566141;
+	margin-bottom: 60px;
+}
+
+.productListItem{
+	height: 372px;
+	flex-basis: 183px;
+	margin:10px 16px 22px 16px;
+	padding: 2px;
+	color: #566141;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.productListItem h4{
+	margin:2px 10px 2px 2px;
+	font-size: 10pt;
+	font-weight: 500;
+}
+.productListItem p{
+	margin:2px 10px auto 2px;
+	font-size: 10pt;
+	font-weight: 300;
+}
+.productListItem h5{
+	margin:4px 10px 4px 2px;
+
+}
+.productListItem img:nth-of-type(2){
+	margin: 6px 12px 6px 4px;
+	width: 40%;
+}
+.productListItem:hover{
+	border: 2px solid #E3C59F;
+	margin:8px 14px 20px 14px;
+	
+
 }
