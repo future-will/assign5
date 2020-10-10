@@ -250,6 +250,7 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+	max-width: 1200px
 }
 
 #hero h1{
@@ -418,7 +419,7 @@ body{
 .productListItem:hover{
 	border: 2px solid #E3C59F;
 	margin:8px 14px 20px 14px;
-	
+
 }
 .productContent{
 	
