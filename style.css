@@ -157,7 +157,7 @@ body{
 	flex-direction: column;
 	background-color: #F0F0F0;
 	margin-left: 5%;
-	margin
+	
 }
 .social h2{
 	padding-left: 5%; 
@@ -188,7 +188,7 @@ body{
 	flex-direction: column;	
 	justify-content: flex-end;
 	margin-left: 18px;
-	justify-content: space space-between;
+	justify-content: space-between;
 }
 #ig{
 	margin-top: 23px;
@@ -367,25 +367,25 @@ body{
 #strawberry{
 	border-color: #FF5071;
 }
-#strawberry:hover .filterSelect{
+#strawberry1:hover .filterSelect{
 	background-color: #FF5071;
 }
 #blackberry{
 	border-color: #300D46;
 }
-#blackberry:hover .filterSelect{
+#blackberry1:hover .filterSelect{
 	background-color: #300D46;
 }
 #crazyberry{
 	border-color: #50E9CD;
 }
-#crazyberry:hover .filterSelect{
+#crazyberry1:hover .filterSelect{
 	background-color: #50E9CD;
 }
 #fireOrange{
 	border-color: #FF4C00;
 }
-#fireOrange:hover .filterSelect{
+#fireOrange1:hover .filterSelect{
 	background-color: #FF4C00;
 }
 /*styling the list itself*/
