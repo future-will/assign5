@@ -1,4 +1,5 @@
 body{
+	/*had to use this to let header bleed to edge of browser*/
 	margin: 0;
 }
 .header{
@@ -15,6 +16,7 @@ body{
 }
 .header-right input[type=text] {
   	font-family: 'Roboto', sans-serif;
+  	/*should just call font fmaily in the body next time, stop multiple instances*/
   	font-size: 14pt;
   	font-weight: 300;
   	float: left;
@@ -28,6 +30,7 @@ body{
   	border-left: none;
   	box-sizing: border-box;
   	font-size: 17px;
+  	/*rgba to make transparent background color*/
   	background-color: rgba(0,0,0,0);
  }
 .navBar{
@@ -58,6 +61,7 @@ body{
 	transition: all .25s;
 }
 .footer{
+	/*ended up removing, wasn't behaving as intented*/
 	background-color: #F0F0F0;
 	height: 50px;
 	width: 100%;
@@ -66,6 +70,7 @@ body{
 	
 }
 .content{
+
 	width: 90%;
 	height: 400px;
 	
@@ -110,7 +115,7 @@ body{
 
 }
 .callToAction{
-	
+	/*made too many similar button classes, will try to reuse more often with addition of ids*/
 	margin-top: 20px;
 	padding: 10px;
 	border: none;
@@ -129,14 +134,17 @@ body{
 	transition: all .25s;
 }
 #colors{
+	/*kept image from being streched*/
 	align-self: flex-start; 
 }
 #gps{
 	margin-top: 5%;
-	margin-right: n
+	margin-right: 0;
 	align-self: flex-start;
 }
 .social{
+	/*major flex issues here*/
+	/*should completely redo in the future*/
 	width: 50%;
 	height: 342px;
 	color: #55636F;
@@ -228,6 +236,7 @@ body{
 }
 #cartButton:hover{
 	background-color: #E3C59F; 
+	/*added cool transitions to keep changes from being so stark*/
 	transition: all .25s;
 }
 #logo{
@@ -301,6 +310,7 @@ body{
 	font-weight: 500;
 }
 .bodyContent{
+	/*could prob reuse .content rather than redoing this code*/
 	display: flex;
 	width: 90%;
 	margin: auto;
@@ -344,6 +354,7 @@ body{
 	font-weight: 300;
 }
 .filterSelect{
+	/*cheap workaround for not being able to affect the html checkbox*/
 	height: 8px;
 	width: 8px;
 	border: 1px solid #566141;
@@ -352,6 +363,7 @@ body{
 .filterOption:hover .filterSelect{
 	background-color: #566141;
 }
+/*different ids for the unique color instances*/
 #strawberry{
 	border-color: #FF5071;
 }
@@ -376,7 +388,7 @@ body{
 #fireOrange:hover .filterSelect{
 	background-color: #FF4C00;
 }
-
+/*styling the list itself*/
 .productsList{
 	display: flex;
 	flex-basis: 85%;
@@ -429,6 +441,7 @@ body{
 	
 	font-family: 'Roboto', sans-serif;
 }
+/*for the individual products*/
 .productMain{
 	display: flex;
 	justify-content: space-between;
@@ -455,6 +468,7 @@ body{
 	margin-right: 20px;
 }
 .productMainInfo{
+	/*again could probably use .content*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -504,6 +518,7 @@ body{
 	background-color: rgba(86,97,65,.11);
 	border-radius: 4px;
 }
+/*the size select was a problem without scripts*/
 .sizeSelect:hover{
 	outline: 0;
 	text-decoration: none;
@@ -512,6 +527,7 @@ body{
 	transition: .25s;
 }
 .sizeSelect:focus{
+	/*used focus because i could not effectively style the check boxes*/
 	outline: 0;
 	text-decoration: none;
 	background-color: #566141;
@@ -530,6 +546,7 @@ body{
 	color: #696969;
 }
 .colorSelect{
+	/*actual objects bettter than using a linked image*/
 	width: 28px;
 	height: 28px;
 	border-radius: 50%;
@@ -574,6 +591,7 @@ body{
 	color: #696969; 
 }
 .qty input{
+	/*style of the input to mach the branding*/
 	height: 24px;
 	border: 2px solid #566141;
 	border-radius: 8px;
@@ -651,6 +669,7 @@ body{
 	font-weight: 500;
 	margin: 8px auto 10px 14px;
 }
+/*style for the chart, pretty simple*/
 .chart{
 	display: flex;
 	width: 90%;
@@ -704,6 +723,7 @@ body{
 	justify-content: center;
 }
 .aboutContent{
+	/*again, could just use .content*/
 	display: flex;
 	flex-direction: column;
 	width: 90%;
@@ -718,6 +738,7 @@ body{
 	margin-top: 50px;
 }
 .aboutHero{
+	/*not img object, called here as background*/
 	background-image: url("images/aboutUs.png");
 	height: 440px;
 	background-position: center;
@@ -727,6 +748,7 @@ body{
 	justify-content: space-between;
 }
 .aboutCallOut{
+	/*the text inside the main image*/
 	width: 35%;
 	
 	color: white;
@@ -743,6 +765,7 @@ body{
 	text-shadow: 0px 0px 4px rgba(0,0,0,.2);
 }
 #about2{
+	/*made an id to differentiate and style separately*/
 	align-self: flex-end;
 	text-align: right;
 }

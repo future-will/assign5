@@ -25,6 +25,7 @@
 		<a href="about.html">ABOUT US</a>
 	</nav>
 	<div class="productContent">
+		<!-- another flexbox grid -->
 		<div class="productMain">
 			<div class="productMainImages">
 				<img src="productListImages/productDetailDogHarness1.png" id="mainImage">
@@ -36,6 +37,7 @@
 				</div>	
 			</div>
 			<div class="productMainInfo">
+				<!-- product content -->
 				<h2 class="productMainTitle">Dog Harness</h2>
 				<h3 class="productMainPrice">$200.00</h3>
 				<p class="productMainCopy">Take your pup along with a harness that keep both you and your best friend comfortable and safe. With multiple loops and strap points you and your dog will be ready for whatever the great outdoors has to offer.</p>
@@ -61,6 +63,7 @@
 					<div class="colorSelect" id="crazyberrySelect"></div>
 					<div class="colorSelect" id="fireOrangeSelect"></div>
 				</div>
+				<!-- added quantity option after heuristic eval -->
 				<div class="qty">
 					<label for="qty">QTY</label>
   					<input type="number" name="qty" min="1" max="99">
@@ -68,6 +71,7 @@
 				<button class="addToCart">ADD TO CART</button>
 			</div>
 		</div>
+		<!-- horizontal rule not visable in column flexbox -->
 		<hr class="lineBreak">
 		<div class="productSecondaryInfo">
 			<div class="productDetails">
@@ -80,6 +84,8 @@
 				<p>Loops, straps, clips and Velcro allow you to outfit your dog with any of our essential hiking pet accessories</p>
 			</div>
 			<div class="sizeChart">
+				<!-- decided to make the chart in HTML/CSS instead of linking a graphic -->
+				<!-- now the chart is responsive and styles can be updated -->
 				<h2>Size Chart</h2>
 				<h4>Find the fit for your unique friend</h4>
 				<div class="chart">
@@ -110,6 +116,7 @@
 		<div class="productRelated">
 			<h2>You Might Also Like:</h2>
 			<div class="productsList" id="related">
+				<!-- called on the products list code from the all products page -->
 				<a href="" class="productListItem">
 					<img src="productListImages/dogHarness.png">
 					<h4 class="productName">Dog Harness</h4>
